@@ -15,6 +15,7 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.tooltips
+    - content.footnote.tooltips
 
   language: en
   palette:
@@ -48,6 +49,7 @@ extra:
   generator: false
 
 markdown_extensions:
+  - footnotes
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -78,3 +80,4 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - Unit 1: unit1.md
