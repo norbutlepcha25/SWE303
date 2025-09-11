@@ -67,6 +67,7 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - pymdownx.tilde
   - pymdownx.caret
+  - pymdownx.mark
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.tabbed:
