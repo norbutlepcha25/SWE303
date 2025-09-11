@@ -25,13 +25,6 @@ jobs:
 
       - name: Install MkDocs with Material theme
         run: pip install mkdocs-material
-      - name: Install bibtex
-        run: pip install mkdocs-bibtex
-      - name: Install pypandoc
-        run: pip install pypandoc
-      - name: Install citeproc
-        run: pip install citeproc-py
-
       - name: Build MkDocs site
         run: mkdocs build
 
