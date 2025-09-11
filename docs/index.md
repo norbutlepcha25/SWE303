@@ -107,11 +107,3 @@ Assessment components consist of:
      - Presentation & communication (5)
 
 ---
-
-## Overview of Assessment Approaches and Weighting
-
-| Areas of Assessment     | Nos. | Marks (%) |
-| ----------------------- | ---- | --------- |
-| Mid Term Test           | 1    | 20        |
-| Practical Work & Report | 9    | 20        |
-| Assignments             | 2    |

@@ -132,3 +132,34 @@ The triple constraint triangle of project management is the visualisation of a t
 - Provide ongoing support, bug fixes, and performance improvements.
 - Handle user feedback and evolving requirements.
 - Deliver patches, updates, and enhancements.
+
+### 1.4 SDLC Models
+
+#### 1.4.1 WaterFall Model
+
+<img src="img/waterfall.png" alt = "waterfall" width="100%"><img>
+
+Waterfall methodology is a well-established project management workflow. Like a waterfall, each process phase cascades downward sequentially through five stages
+
+### 1.5 Role of Project Manager
+
+1.  The project manager **{==plans and guides==}** the software project
+
+    - The project manager is responsible for **identifying the users and stakeholders** and **determining their needs**
+
+    - The project manager **coordinates the team**, ensuring that each task has an appropriate software engineer assigned and that each engineer has sufficient knowledge to perform it
+    - To do this well, **the project manager must be familiar with every aspect of software engineering**
+
+2.  The project manager **{==drives the scope of the project.==}**
+
+    - The project manager should identify and talk to the main stakeholder
+    - The effective way to show stakeholders that their needs are understood and that those specific needs will be addressed is with a vision and scope document
+
+### 1.5 Scope defination
+
+1. Problem Statement
+2. Project background
+3. Stakeholders
+4. Users
+5. Risks
+6. Assumptions
