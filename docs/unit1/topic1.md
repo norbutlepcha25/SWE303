@@ -2,78 +2,64 @@
 
 ## 1.1.1 Defination of software project
 
-> A software project is a **temporary endeavor** undertaken to create a unique software product, service, or result. It is temporary because it has a defined beginning and end, and unique because it is not a routine operation but a specific set of operations designed to accomplish a singular goal.
+> A software project is a **temporary endeavor** undertaken to create a **_ unique software product, service, or result._** It is temporary because it has a **_defined beginning and end_**, and unique because it is not a routine operation but a specific set of operations designed to accomplish a singular goal.
 
 A software project is a specific type of project where the primary deliverable is a software product, application, or service, or the enhancement of an existing one. This includes associated documentation, data, and processes required to conceive, design, implement, deploy, and sustain the software.
 
-## 1.1.2 Unique features of software projects
+### 1.1.1.2 Unique features of software projects
 
 Unlike construction or manufacturing projects, software projects have distinct characteristics:
 
-1.  **Intangibility:** The product is not physical. It's a logical construct, making it difficult to measure progress visually.
+1. **Intangibility:** The primary product—software—is not a physical entity. It is a logical construct. This makes it difficult to visualize progress, measure quantity, and assess quality through direct inspection. Progress is measured through completed features, passing tests, and demonstrated functionality.
 
-2.  **High Volatility of Requirements:** Requirements change frequently due to evolving user needs, market shifts, and technological advancements.
+2. **Complexity and Abstract Nature:** Software systems are among the most complex artifacts ever created. They involve intricate logical structures and interdependencies. A small change in one module can have unforeseen consequences in another, a phenomenon known as "tight coupling."
 
-3.  **Complexity and Invisibility:** The interdependencies within software systems are extremely complex and not visually apparent. A small change in one module can have unforeseen consequences in another.
+3. **High Volatility and Malleability:** Requirements are highly susceptible to change. This is due to evolving business needs, market shifts, user feedback, and technological advancements. Unlike a building's blueprint, a software's specification is often a living document. This makes scope creep a constant threat.
 
-4.  **Ease of Replication & Low Reproduction Cost:** Once developed, the cost of replicating the software is negligible, shifting the focus from production cost to development cost and intellectual property.
+4. **Invisibility of Progress:** In construction, progress is visible (foundation poured, frame erected). In software, progress is not linearly correlated with time or effort spent. A team may spend a week seemingly without "visible" output while solving a critical architectural problem, then deliver multiple features rapidly afterward.
 
-Software projects possess distinct characteristics that differentiate them from projects in other engineering disciplines (like construction or manufacturing) and make them particularly challenging to manage. These features necessitate specialized management approaches, often blending traditional and Agile methodologies.
+5. **Dependence on Human Ingenuity:** Software development is a highly creative and intellectual activity. The productivity and quality of the output are directly tied to the skill, experience, and collaboration of the project team. This makes Project Resource Management critical.
 
-Intangibility: The primary product—software—is not a physical entity. It is a logical construct. This makes it difficult to visualize progress, measure quantity, and assess quality through direct inspection. Progress is measured through completed features, passing tests, and demonstrated functionality.
+6. **Absence of "Wear and Tear":** Software does not degrade physically over time. However, it suffers from "software decay" or "technical debt"—its structure erodes as changes are made, making it harder to maintain and extend over time. Managing technical debt is a key project activity.
 
-Complexity and Abstract Nature: Software systems are among the most complex artifacts ever created. They involve intricate logical structures and interdependencies. A small change in one module can have unforeseen consequences in another, a phenomenon known as "tight coupling."
+7. **Non-Linear Production Costs:** The cost of reproducing software is negligible. The vast majority of costs are in the initial development (the first copy). This contrasts with manufacturing, where each unit has a significant production cost.
 
-High Volatility and Malleability: Requirements are highly susceptible to change. This is due to evolving business needs, market shifts, user feedback, and technological advancements. Unlike a building's blueprint, a software's specification is often a living document. This makes scope creep a constant threat.
+8. **Ease of Replication & Low Reproduction Cost:** Once developed, the cost of replicating the software is negligible, shifting the focus from production cost to development cost and intellectual property.
 
-Invisibility of Progress: In construction, progress is visible (foundation poured, frame erected). In software, progress is not linearly correlated with time or effort spent. A team may spend a week seemingly without "visible" output while solving a critical architectural problem, then deliver multiple features rapidly afterward.
+### 1.1.1.3 The triple constraint: scope, time, and cost
 
-Dependence on Human Ingenuity: Software development is a highly creative and intellectual activity. The productivity and quality of the output are directly tied to the skill, experience, and collaboration of the project team. This makes Project Resource Management critical.
+The Triple Constraint, also known as the Project Management Triangle or Iron Triangle, is a fundamental model that states that every project is constrained by three primary, interconnected dimensions: Scope, Time, and Cost[^1]. The quality of the project is often seen as the central outcome, governed by the balance of these three constraints.
 
-Absence of "Wear and Tear": Software does not degrade physically over time. However, it suffers from "software decay" or "technical debt"—its structure erodes as changes are made, making it harder to maintain and extend over time. Managing technical debt is a key project activity.
+In modern project management, this model is often expanded to include other factors like Quality, Risk, and Resources, but the core triangle remains a powerful conceptual tool .
 
-Non-Linear Production Costs: The cost of reproducing software is negligible. The vast majority of costs are in the initial development (the first copy). This contrasts with manufacturing, where each unit has a significant production cost.
+<!-- reference linked refence  -->
+<figure markdown="span">
+    ![RBS](../img/u1/irontriangle.avif){width="60%"}
+    <figcaption>Project Management Triangle or Iron Triangle </figcaption>
+    <p align='right' style="font-size:0.8em"><i>Image Source: <a href="https://asana.com/resources/project-management-triangle"> Asana  </a ></i></p> 
+</figure>
 
-## 1.1.3 The triple constraint: scope, time, and cost
+- **Scope** (features, functionality) : The scope of the work refers to the sum of all products, services, and results to be provided i.e., the project's deliverables or the result. It should be clearly defined and monitored throughout the project before beginning work. **Scope creep**, or the project getting bigger or changing without proper protocol, can throw the constraint triangle off balance.
 
-The Triple Constraint, also known as the Project Management Triangle or Iron Triangle, is a fundamental model that states that every project is constrained by three primary, interconnected dimensions: Scope, Time, and Cost. The quality of the project is often seen as the central outcome, governed by the balance of these three constraints.
+- **Time** (schedule, deadlines) : The scheduled completion date for the project, broken down into the timelines for individual activities and milestones i.e., how long the project will take. It’s important for project managers to make sure the team finishes the project before a deadline. A project manager must figure out how long a project will take and ensure enough people working on the job to complete it in time.
 
-In modern project management, this model is often expanded to include other factors like Quality, Risk, and Resources, but the core triangle remains a powerful conceptual tool.
-
-(Diagram: A triangle with "Scope" on the top, "Time" on the left, "Cost" on the right, and "Quality" in the center.)
-
-Scope: The sum of all products, services, and results to be provided as the project. In software, this includes all features, functions, and capabilities described in the Requirements Documentation or Product Backlog.
-
-Time: The scheduled completion date for the project, broken down into the timelines for individual activities and milestones. This is represented in the Project Schedule.
-
-Cost: The total budget authorized for the project, including all resources (personnel, equipment, materials, licenses). This is detailed in the Cost Baseline.
+- **Cost** (budget, resources) : The cost is the budget of the project. Clients and project managers agree on a budget before beginning the project, and keeping a project on budget will be one measure of success.
 
 The Interdependent Relationship:
 
 The core principle is that any change in one constraint will necessitate an adjustment in at least one of the others to maintain project quality and success.
 
-If Scope Increases (More Features): → Time and/or Cost must increase to maintain the same level of quality. If they are fixed, Quality will suffer.
+- If Scope Increases (More Features): → Time and/or Cost must increase to maintain the same level of quality. If they are fixed, Quality will suffer.
 
-If Time is Reduced (Earlier Deadline): → Either Scope must be reduced or Cost must be increased (e.g., more developers working overtime) to maintain quality.
+- If Time is Reduced (Earlier Deadline): → Either Scope must be reduced or Cost must be increased (e.g., more developers working overtime) to maintain quality.
 
-If Cost is Reduced (Smaller Budget): → Either Scope must be reduced or Time must be increased, otherwise Quality will be compromised.
+- If Cost is Reduced (Smaller Budget): → Either Scope must be reduced or Time must be increased, otherwise Quality will be compromised.
 
-Application in Software Projects:
-A project manager's key role is to manage these trade-offs explicitly. For example, when a stakeholder requests a new feature (scope increase), the project manager must formally assess the impact on the schedule and budget through a Change Control Process and communicate the options: "We can add this feature, but it will delay the release by two weeks, or require an additional $15,000 in budget."
+!!! warning "Application in Software Projects"
 
-he triple constraint triangle of project management is the visualisation of a triangle, with sides formed by time, scope, and cost. These three factors are the constraints that project managers juggle to keep a project running as expected.
+    A project manager's key role is to manage these trade-offs explicitly. For example, when a stakeholder requests a new feature (scope increase), the project manager must formally assess the impact on the schedule and budget through a Change Control Process and communicate the options: "We can add this feature, but it will delay the release by two weeks, or require an additional funding in budget."
 
-- **Scope** (features, functionality) : The scope of the work refers to the project's deliverables or the result. It should be clearly defined and monitored throughout the project before beginning work. **Scope creep**, or the project getting bigger or changing without proper protocol, can throw the constraint triangle off balance.
-
-- **Time** (schedule, deadlines) : Time is how long the project will take. It’s important for project managers to make sure the team finishes the project before a deadline. A project manager must figure out how long a project will take and ensure enough people working on the job to complete it in time.
-
-- **Cost** (budget, resources) : The cost is the budget of the project. Clients and project managers agree on a budget before beginning the project, and keeping a project on budget will be one measure of success.
-
-!!! warning "Note"
-
-    _Changing any one of the three will impact the others. This is a core concept, now often expanded to include other factors like quality, risk, and resources, but the triangle remains the foundational model._
-
-!!! tip "Some Resolutions for PM[^1]"
+!!! tip "Some Resolutions for PM"
 
     The following offers some everyday ways a project manager might adjust to keep the project on track.
 
@@ -135,80 +121,57 @@ he triple constraint triangle of project management is the visualisation of a tr
 
     3. ***Communicate with stakeholders:*** Keep stakeholders updated, set expectations, and get agreement before making changes.
 
-### 1.1.4 Software project lifecycle phases
+### 1.1.1.4 Project lifecycle phases
 
 A project lifecycle is the series of phases that a project passes through from its initiation to its closure. The structure of the lifecycle allows for control over the project and aligns technical work with management decision-making.
 
-While specific lifecycle models vary (e.g., Predictive/Waterfall, Iterative, Incremental, Agile, Hybrid), they generally map to the following high-level, generic phases, which also correspond to the PMBOK Process Groups.
+While specific lifecycle models vary (e.g., Predictive/Waterfall, Iterative, Incremental, Agile, Hybrid), they generally map to the following high-level, generic phases, which also correspond to the PMBOK Process Groups[^2].These correspond to the five PMBOK Process Groups: Initiating, Planning, Executing, Monitoring & Controlling, and Closing.
 
-Initiation Phase
+<!-- reference linked refence  -->
+<figure markdown="span">
+    ![RBS](../img/u1/Project-Life-Cycle-5-Steps.jpg){width="60%"}
+    <figcaption>Five PMBOK Process Groups (High level Generic phase) </figcaption>
+    <p align='right' style="font-size:0.8em"><i>Image Source: <a href="https://www.invensislearning.com/blog/5-phases-project-management-lifecycle/"> Invensis Learning  </a ></i></p> 
+</figure>
 
-Purpose: Define the project at a high level and obtain authorization to proceed.
+1.  **Initiation:** The project is defined at a high level and authorized.
+    - **_Key Activities_**: Developing the Project Charter (formal document authorizing the project), identifying key stakeholders, conducting a feasibility study, defining high-level objectives and scope.
+    - _Outcome_: A signed project charter, giving the project manager the authority to apply organizational resources to project activities.
+2.  **Planning:** Establish the total scope of the effort, define and refine the objectives, and develop the course of action required to attain those objectives.
 
-Key Activities: Developing the Project Charter (formal document authorizing the project), identifying key stakeholders, conducting a feasibility study, defining high-level objectives and scope.
+    - _Activities:_
 
-Outcome: A signed project charter, giving the project manager the authority to apply organizational resources to project activities.
+          - Project Management Plan(The overarching document).
+          - Scope Baseline: (Scope Statement, WBS, WBS Dictionary).
+          - Schedule Baseline: (Project Schedule, often a Gantt chart).
+          - Cost Baseline: (Project Budget).
+          - Plans for Risk, Quality, Resources, Communications, and Stakeholder Engagement.
 
-Planning Phase
+    - _Outcome_: A comprehensive project management plan that will guide project execution and control.
 
-Purpose: Establish the total scope of the effort, define and refine the objectives, and develop the course of action required to attain those objectives.
+3.  **Execution:** Complete the work defined in the project management plan to satisfy the project specifications.
 
-Key Activities: This is where most Knowledge Area plans are developed. Key outputs include:
+    - _Activities:_ Coordinating people and resources, managing stakeholder engagement, conducting quality assurance activities, and building the deliverables. This is where the majority of the project's budget is spent.
+    - In Software Terms: This is the phase where coding, unit testing, and integration testing primarily occur.
+    - _Outcome:_ The completed software product deliverables.
 
-Project Management Plan: The overarching document.
+4.  **Monitoring & Controlling (often concurrent):** Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.
+    - _Activities:_ Coding, testing, team management, monitoring KPIs, managing changes. This phase runs concurrently with the Execution phase. It involves measuring project performance against the baselines using tools like Earned Value Management (EVM), controlling scope through a Change Control Board (CCB), managing risks, and controlling quality (e.g., testing).
+    - _Output_: Performance reports, change requests, and updates to the project plan.
+5.  **Closure:** The project is formally closed.
+    - _Activities:_ Obtaining formal acceptance of the final product from the customer, conducting post-mortem or lessons learned sessions, archiving project records, releasing project resources, and closing all procurements.
+    - In Software Terms: This includes final deployment to production, knowledge transfer to the operations or maintenance team, and system documentation handover.
+    - Outcome: Formal project closure, archived documents, and lessons learned repository updates.
 
-Scope Baseline: (Scope Statement, WBS, WBS Dictionary).
+### 1.1.1.5 Software Develpoment Life cycle
 
-Schedule Baseline: (Project Schedule, often a Gantt chart).
+A Software Development Life Cycle (SDLC) is a specific process for creating software applications. It defines the technical stages a software product goes through from conception to retirement and provides a structured, predictable process for building high-quality software.
 
-Cost Baseline: (Project Budget).
-
-Plans for Risk, Quality, Resources, Communications, and Stakeholder Engagement.
-
-Outcome: A comprehensive project management plan that will guide project execution and control.
-
-Execution Phase
-
-Purpose: Complete the work defined in the project management plan to satisfy the project specifications.
-
-Key Activities: Coordinating people and resources, managing stakeholder engagement, conducting quality assurance activities, and building the deliverables. This is where the majority of the project's budget is spent.
-
-In Software Terms: This is the phase where coding, unit testing, and integration testing primarily occur.
-
-Outcome: The completed software product deliverables.
-
-Monitoring and Controlling Phase
-
-Purpose: Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.
-
-Key Activities: This phase runs concurrently with the Execution phase. It involves measuring project performance against the baselines using tools like Earned Value Management (EVM), controlling scope through a Change Control Board (CCB), managing risks, and controlling quality (e.g., testing).
-
-Outcome: Performance reports, change requests, and updates to the project plan.
-
-Closing Phase
-
-Purpose: Formally complete or close the project, phase, or contract.
-
-Key Activities: Obtaining formal acceptance of the final product from the customer, conducting post-mortem or lessons learned sessions, archiving project records, releasing project resources, and closing all procurements.
-
-In Software Terms: This includes final deployment to production, knowledge transfer to the operations or maintenance team, and system documentation handover.
-
-Outcome: Formal project closure, archived documents, and lessons learned repository updates.
-
-A project lifecycle is the series of phases that a project passes through from its start to its completion. Software projects typically use iterative or adaptive lifecycles.
-
-1.  **Initiation:** The project is defined and authorized.
-    - _Activities:_ Feasibility study, project charter creation.
-2.  **Planning:** The project scope, objectives, and course of action are defined.
-    - _Activities:_ Creating WBS, schedule, budget, risk plan.
-3.  **Execution & Controlling (often concurrent):** The work is performed, and progress is tracked and managed.
-    - _Activities:_ Coding, testing, team management, monitoring KPIs, managing changes.
-4.  **Closure:** The project is formally closed.
-    - _Activities:_ Deployment, post-implementation review, lessons learned, releasing the team.
-
-**PMBOK Relation:** These correspond to the five PMBOK Process Groups: Initiating, Planning, Executing, Monitoring & Controlling, and Closing.
-
-<img src="../img/SDLC.png" alt="SDLC" width="60%">
+<!-- reference linked refence  -->
+<figure markdown="span">
+    ![SDLC](../img/u1/SDLC.png){width="80%"}
+    <figcaption>Software Development life cycle</figcaption>
+</figure>
 
 #### 1. Planning
 
@@ -252,82 +215,63 @@ A project lifecycle is the series of phases that a project passes through from i
 - Handle user feedback and evolving requirements.
 - Deliver patches, updates, and enhancements.
 
-### 1.4 SDLC Models
-
-#### 1.4.1 WaterFall Model
-
-<img src="../img/waterfall.png" alt = "waterfall" width="100%"><img>
-
-Waterfall methodology is a well-established project management workflow. Like a waterfall, each process phase cascades downward sequentially through five stages
-
-### 1.5 Role of Project Manager
-
-1.  The project manager **plans and guides** the software project
-
-    - The project manager is responsible for **identifying the users and stakeholders** and **determining their needs**
-
-    - The project manager **coordinates the team**, ensuring that each task has an appropriate software engineer assigned and that each engineer has sufficient knowledge to perform it
-    - To do this well, **the project manager must be familiar with every aspect of software engineering**
-
-2.  The project manager **drives the scope of the project**
-
-    - The project manager should identify and talk to the main stakeholder
-    - The effective way to show stakeholders that their needs are understood and that those specific needs will be addressed is with a vision and scope document
-
-### 1.5 Scope defination
-
-1. Problem Statement
-2. Project background
-3. Stakeholders
-4. Users
-5. Risks
-6. Assumptions
-
 ## 1.1.2 The role of project management in software engineering
 
 Project management is the disciplined application of knowledge, skills, tools, and techniques to project activities to meet project requirements. In the complex and often volatile domain of software engineering, it serves as the essential framework that translates a business need or creative idea into a functional, high-quality software product.
 
 ### 1.1.2.1 Importance of project management in software development
 
-Effective project management is critical in software development due to the field's inherent challenges, such as rapidly changing requirements, technological complexity, and high stakeholder expectations. Its importance is multifaceted:
+1. Effective project management is critical in software development due to the field's inherent challenges, such as rapidly changing requirements, technological complexity, and high stakeholder expectations. Its importance is multifaceted:
 
-Mitigating High Failure Rates: The Standish Group's CHAOS Report historically highlights that a significant percentage of software projects fail due to budget overruns, missed deadlines, and lack of required functionality. Project management provides the structure to combat this through proper planning, risk management, and control.
+2. Mitigating High Failure Rates: The Standish Group's CHAOS Report historically highlights that a significant percentage of software projects fail due to budget overruns, missed deadlines, and lack of required functionality. Project management provides the structure to combat this through proper planning, risk management, and control.
 
-Managing Complexity: Modern software systems are complex. Project Management breaks down this complexity into manageable components (Work Breakdown Structure - WBS), tasks, and timelines.
+3. Managing Complexity: Modern software systems are complex. Project Management breaks down this complexity into manageable components (Work Breakdown Structure - WBS), tasks, and timelines.
 
-Ensuring Predictability and Control: It establishes baselines for scope, schedule, and cost. By tracking against these baselines (Earned Value Management - EVM), a project manager can forecast outcomes and take corrective action.
+4. Ensuring Predictability and Control: It establishes baselines for scope, schedule, and cost. By tracking against these baselines (Earned Value Management - EVM), a project manager can forecast outcomes and take corrective action.
 
-Facilitating Communication: It establishes clear communication channels and plans, ensuring that stakeholders, developers, and users are aligned, which is a cornerstone of success as per the PMBOK Guide.
+5. Facilitating Communication: It establishes clear communication channels and plans, ensuring that stakeholders, developers, and users are aligned, which is a cornerstone of success as per the PMBOK Guide.
 
-Optimizing Resource Utilization: It ensures that human resources (developers, testers, designers) and physical resources (servers, software licenses) are used efficiently and effectively.
+6. Optimizing Resource Utilization: It ensures that human resources (developers, testers, designers) and physical resources (servers, software licenses) are used efficiently and effectively.
 
-Managing Quality: It moves quality from an afterthought (testing at the end) to an integral part of the process, ensuring the software is fit for its intended use and meets defined quality standards (e.g., ISO 25010).
+7. Managing Quality: It moves quality from an afterthought (testing at the end) to an integral part of the process, ensuring the software is fit for its intended use and meets defined quality standards (e.g., ISO 25010).
 
-Enabling Adaptability: While providing structure, modern project management frameworks (like Agile and Hybrid approaches) are designed to accommodate change, allowing teams to respond to feedback and evolving market needs without derailing the entire project.
+8. Enabling Adaptability: While providing structure, modern project management frameworks (like Agile and Hybrid approaches) are designed to accommodate change, allowing teams to respond to feedback and evolving market needs without derailing the entire project.
 
 ### 1.1.2.2 Key responsibilities of a software project manager
 
 The Software Project Manager (SPM) is the linchpin holding the project together. Their responsibilities span the entire project lifecycle and align closely with the PMBOK Process Groups (Initiating, Planning, Executing, Monitoring & Controlling, Closing).
 
-Scope Management: Defining and controlling what is and is not included in the project. This involves creating a Work Breakdown Structure (WBS) to decompose project deliverables into smaller, more manageable components.
+1. Scope Management: Defining and controlling what is and is not included in the project. This involves creating a Work Breakdown Structure (WBS) to decompose project deliverables into smaller, more manageable components.
 
-Schedule Management: Developing the project schedule, sequencing activities, estimating resources and durations, and tracking progress to ensure timely completion. Key tools include Gantt Charts, Critical Path Method (CPM), and Agile Sprints.
+2. Schedule Management: Developing the project schedule, sequencing activities, estimating resources and durations, and tracking progress to ensure timely completion. Key tools include Gantt Charts, Critical Path Method (CPM), and Agile Sprints.
 
-Cost Management: Estimating, budgeting, and controlling costs so the project is completed within the approved budget. Techniques include Analogous Estimating, Parametric Estimating, and Earned Value Management (EVM).
+3. Cost Management: Estimating, budgeting, and controlling costs so the project is completed within the approved budget. Techniques include Analogous Estimating, Parametric Estimating, and Earned Value Management (EVM).
 
-Quality Management: Ensuring the project will satisfy the needs for which it was undertaken. This includes quality planning, quality assurance (process-focused), and quality control (deliverable-focused, e.g., code reviews, testing).
+4. Quality Management: Ensuring the project will satisfy the needs for which it was undertaken. This includes quality planning, quality assurance (process-focused), and quality control (deliverable-focused, e.g., code reviews, testing).
 
-Resource Management: Identifying, acquiring, and managing the team and physical resources needed. This involves team development, conflict resolution, and motivation, often guided by Tuckman's Ladder (Forming, Storming, Norming, Performing, Adjourning).
+5. Resource Management: Identifying, acquiring, and managing the team and physical resources needed. This involves team development, conflict resolution, and motivation, often guided by Tuckman's Ladder (Forming, Storming, Norming, Performing, Adjourning).
 
-Communication Management: Creating, distributing, storing, and disposing of project information. A Communication Management Plan is vital to ensure the right information reaches the right stakeholders at the right time.
+6. Communication Management: Creating, distributing, storing, and disposing of project information. A Communication Management Plan is vital to ensure the right information reaches the right stakeholders at the right time.
 
-Risk Management: Conducting risk identification, analysis (qualitative and quantitative), response planning, and monitoring. For software projects, risks often involve technical feasibility, requirements volatility, and resource unavailability.
+7. Risk Management: Conducting risk identification, analysis (qualitative and quantitative), response planning, and monitoring. For software projects, risks often involve technical feasibility, requirements volatility, and resource unavailability.
 
-Stakeholder Management: Identifying all people or organizations affected by the project, analyzing their expectations and influence, and developing strategies to engage them effectively.
+8. Stakeholder Management: Identifying all people or organizations affected by the project, analyzing their expectations and influence, and developing strategies to engage them effectively.
 
-Integration Management: The overarching responsibility that knits all other areas together. It involves making trade-off decisions between competing objectives and ensuring the project's components are properly coordinated.
+9. Integration Management: The overarching responsibility that knits all other areas together. It involves making trade-off decisions between competing objectives and ensuring the project's components are properly coordinated.
 
-Procurement Management: Acquiring or procuring products, services, or results from outside the project team, such as third-party APIs, cloud services, or contractor support.
+10. Procurement Management: Acquiring or procuring products, services, or results from outside the project team, such as third-party APIs, cloud services, or contractor support.
+
+11. The project manager **plans and guides** the software project
+
+    - The project manager is responsible for **identifying the users and stakeholders** and **determining their needs**
+
+    - The project manager **coordinates the team**, ensuring that each task has an appropriate software engineer assigned and that each engineer has sufficient knowledge to perform it
+    - To do this well, **the project manager must be familiar with every aspect of software engineering**
+
+12. The project manager **drives the scope of the project**
+
+    - The project manager should identify and talk to the main stakeholder
+    - The effective way to show stakeholders that their needs are understood and that those specific needs will be addressed is with a vision and scope document
 
 ### 1.1.2.3 Balancing technical and managerial aspects
 
@@ -359,25 +303,25 @@ As defined by the Project Management Institute's (PMI) PMBOK Guide (A Guide to t
 
 The ten Knowledge Areas provide a structured framework for grouping project management processes.
 
-Project Integration Management: The core coordinating function. It includes processes to identify, define, combine, unify, and coordinate the various processes and project management activities. Key Process: Develop Project Charter, Direct and Manage Project Work, Perform Integrated Change Control.
+1. Project Integration Management: The core coordinating function. It includes processes to identify, define, combine, unify, and coordinate the various processes and project management activities. Key Process: Develop Project Charter, Direct and Manage Project Work, Perform Integrated Change Control.
 
-Project Scope Management: Ensures the project includes all the work required, and only the work required, to complete the project successfully. Key Process: Collect Requirements, Define Scope, Create WBS, Validate Scope.
+2. Project Scope Management: Ensures the project includes all the work required, and only the work required, to complete the project successfully. Key Process: Collect Requirements, Define Scope, Create WBS, Validate Scope.
 
-Project Schedule Management: Manages the timely completion of the project. Key Process: Define Activities, Sequence Activities, Estimate Activity Durations, Develop Schedule, Control Schedule.
+3. Project Schedule Management: Manages the timely completion of the project. Key Process: Define Activities, Sequence Activities, Estimate Activity Durations, Develop Schedule, Control Schedule.
 
-Project Cost Management: Involves planning, estimating, budgeting, financing, funding, managing, and controlling costs. Key Process: Estimate Costs, Determine Budget, Control Costs.
+4. Project Cost Management: Involves planning, estimating, budgeting, financing, funding, managing, and controlling costs. Key Process: Estimate Costs, Determine Budget, Control Costs.
 
-Project Quality Management: Determines quality policies, objectives, and responsibilities to ensure the project satisfies the needs for which it was undertaken. Key Process: Plan Quality Management, Manage Quality, Control Quality.
+5. Project Quality Management: Determines quality policies, objectives, and responsibilities to ensure the project satisfies the needs for which it was undertaken. Key Process: Plan Quality Management, Manage Quality, Control Quality.
 
-Project Resource Management: Identifies, acquires, and manages the resources needed for the successful completion of the project. Key Process: Estimate Activity Resources, Acquire Resources, Develop Team, Manage Team.
+6. Project Resource Management: Identifies, acquires, and manages the resources needed for the successful completion of the project. Key Process: Estimate Activity Resources, Acquire Resources, Develop Team, Manage Team.
 
-Project Communications Management: Ensures timely and appropriate planning, collection, creation, distribution, storage, retrieval, management, control, monitoring, and ultimate disposition of project information. Key Process: Plan Communications Management, Manage Communications, Monitor Communications.
+7. Project Communications Management: Ensures timely and appropriate planning, collection, creation, distribution, storage, retrieval, management, control, monitoring, and ultimate disposition of project information. Key Process: Plan Communications Management, Manage Communications, Monitor Communications.
 
-Project Risk Management: Conducts risk management planning, identification, analysis, response planning, and implementation, and monitors risks. Key Process: Identify Risks, Perform Qualitative/Quantitative Risk Analysis, Plan Risk Responses, Implement Risk Responses.
+8. Project Risk Management: Conducts risk management planning, identification, analysis, response planning, and implementation, and monitors risks. Key Process: Identify Risks, Perform Qualitative/Quantitative Risk Analysis, Plan Risk Responses, Implement Risk Responses.
 
-Project Procurement Management: Involves the purchase or acquisition of products, services, or results needed from outside the project team. Key Process: Plan Procurement Management, Conduct Procurements, Control Procurements.
+9. Project Procurement Management: Involves the purchase or acquisition of products, services, or results needed from outside the project team. Key Process: Plan Procurement Management, Conduct Procurements, Control Procurements.
 
-Project Stakeholder Management: Identifies the people, groups, or organizations that could impact or be impacted by the project, analyzes their expectations and influence, and develops strategies for engaging them. Key Process: Identify Stakeholders, Plan Stakeholder Engagement, Manage Stakeholder Engagement, Monitor Stakeholder Engagement.
+10. Project Stakeholder Management: Identifies the people, groups, or organizations that could impact or be impacted by the project, analyzes their expectations and influence, and develops strategies for engaging them. Key Process: Identify Stakeholders, Plan Stakeholder Engagement, Manage Stakeholder Engagement, Monitor Stakeholder Engagement.
 
 ### 1.1.3.2 Applying knowledge areas to software projects
 
@@ -425,6 +369,9 @@ Risk Mgmt: This event should have been identified as a risk with a mitigation pl
 
 The Unifying Role: Project Integration Management is the formal methodology for performing this integration. It ensures that all elements of the project are properly coordinated by making conscious trade-offs among competing objectives and alternatives, ultimately leading to a cohesive and successful project outcome.
 
-## reference
-
 ## Test Your self
+
+## Reference
+
+[^1]: Asana. (2025, February 15). The Project Management Triangle: What It Is and How to Use It. Asana. https://asana.com/resources/project-management-triangle
+[^2]: Brown, L. (2019, August 26). 5 Phases of Project Management Life Cycle You Need to Know - Invensis Learning Blog. Invensis Learning Blog. https://www.invensislearning.com/blog/5-phases-project-management-lifecycle/

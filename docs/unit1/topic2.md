@@ -8,6 +8,14 @@ The unit progresses from highly structured, predictive models to adaptive, flexi
 
 The Waterfall model is a sequential (or linear) lifecycle model where project activities are broken down into distinct, non-overlapping phases. The output of one phase serves as the input for the next, with little to no iteration or going back. It is a predictive model, relying on extensive upfront planning and a fixed scope.
 
+### 1.4 SDLC Models
+
+#### 1.4.1 WaterFall Model
+
+<img src="../img/waterfall.png" alt = "waterfall" width="100%"><img>
+
+Waterfall methodology is a well-established project management workflow. Like a waterfall, each process phase cascades downward sequentially through five stages
+
 ### 1.2.1.1 Phases of the waterfall model
 
 The phases are strictly sequential and typically include:
