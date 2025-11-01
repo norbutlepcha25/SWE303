@@ -1,33 +1,46 @@
 # Software Project Management Module
 
+Semester: {{ semester}}
+
+Tutor : {{ instructor }}
+
 ## General Objective
 
 This module provides a comprehensive overview of software project management, focusing on the initiation, planning, execution, monitoring, and closure of software projects. Students will learn to apply various project management methodologies, tools, and techniques to effectively manage software development processes.
 
 The module covers core concepts such as:
 
-- Requirements analysis
-- Project planning
-- Risk management
-- Quality management
-- Project evaluation
+📝 **Requirements analysis**
+
+📝 **Project planning**
+
+📝 **Risk management**
+
+📝 **Quality management**
+
+📝 **Project evaluation**
 
 By the end of the module, students will have the skills to successfully plan, execute, and deliver software projects that meet stakeholder needs and adhere to industry best practices.
 
----
+!!! success "Learning Outcomes"
 
-## Learning Outcomes
+    On completion of the module, students will be able to:
 
-On completion of the module, students will be able to:
+    🎯 Explain the software project management process and its importance in software engineering.
 
-1. Explain the software project management process and its importance in software engineering.
-2. Apply techniques for requirements elicitation, analysis, and management in software projects.
-3. Develop comprehensive project plans, including work breakdown structures, schedules, and resource allocation.
-4. Implement risk management strategies to identify, assess, and mitigate project risks.
-5. Apply quality management principles and practices in software development projects.
-6. Utilize project management tools and techniques for monitoring and controlling project progress.
-7. Evaluate project performance using earned value management and other metrics.
-8. Apply appropriate project closure activities and conduct post-project reviews.
+    🎯 Apply techniques for requirements elicitation, analysis, and management in software projects.
+
+    🎯 Develop comprehensive project plans, including work breakdown structures, schedules, and resource allocation.
+
+    🎯 Implement risk management strategies to identify, assess, and mitigate project risks.
+
+    🎯 Apply quality management principles and practices in software development projects.
+
+    🎯 Utilize project management tools and techniques for monitoring and controlling project progress.
+
+    🎯 Evaluate project performance using earned value management and other metrics.
+
+    🎯 Apply appropriate project closure activities and conduct post-project reviews.
 
 ---
 

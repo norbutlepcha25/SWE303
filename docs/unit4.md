@@ -1,14 +1,5 @@
 # UNIT4: Risk management
 
-> **Project risk may be defined as the chance of certain occurrences adversely affecting project objectives, the degree of exposure to negative events, and their probable consequences.**
-
-Risk has two primary components for a given event[^1] :
-
-    ● A probability of occurrence of that event
-    ● Impact (or consequence) of the event occurring (amount at stake)
-
-Risk management in software projects is the systematic approach of identifying, analyzing, and responding to risks to minimize their negative impact on project objectives. It ensures that uncertainties are proactively managed rather than reactively handled.
-
 ---
 
 ## 4.1 Types of Risk
@@ -1086,6 +1077,8 @@ Update Process:
     - Monitor initial results of changes
     - Make quick adjustments if immediate issues arise
     - Document implementation process
+
+{{ complexity_table}}
 
 ## References
 
