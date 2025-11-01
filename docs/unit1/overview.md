@@ -6,10 +6,6 @@
 
 Introduction
 
-Of course. Here is a broad overview of the unit, serving as an introduction that synthesizes the topics covered.
-
----
-
 ### **Unit 1.1: Introduction to Software Project Management**
 
 #### **Unit Overview**
