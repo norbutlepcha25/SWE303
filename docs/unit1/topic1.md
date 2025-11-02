@@ -347,25 +347,25 @@ Examples of Integration in a Software Project:
 
 A Change Request (Scope) arises:
 
-Integration Mgmt: The formal Change Control Board (CCB) evaluates the request via Perform Integrated Change Control.
+Integration management: The formal Change Control Board (CCB) evaluates the request via Perform Integrated Change Control.
 
-Scope/Schedule/Cost Mgmt: If approved, the scope baseline is updated, which triggers updates to the schedule (more time needed?) and cost baseline (more budget needed?).
+Scope/Schedule/Cost management: If approved, the scope baseline is updated, which triggers updates to the schedule (more time needed?) and cost baseline (more budget needed?).
 
-Resource Mgmt: May require assigning more developers or re-allocating tasks.
+Resource management: May require assigning more developers or re-allocating tasks.
 
-Communications Mgmt: The decision and its impact must be communicated to all stakeholders.
+Communications management: The decision and its impact must be communicated to all stakeholders.
 
-Risk Mgmt: The change might introduce new technical risks or dependencies.
+Risk management: The change might introduce new technical risks or dependencies.
 
 A Key Developer leaves (Resource):
 
-Resource Mgmt: The team must be re-formed and a replacement acquired.
+Resource management: The team must be re-formed and a replacement acquired.
 
-Schedule Mgmt: The loss may cause a delay, requiring a schedule update.
+Schedule management: The loss may cause a delay, requiring a schedule update.
 
-Cost Mgmt: Recruiting a replacement may incur unplanned costs.
+Cost management: Recruiting a replacement may incur unplanned costs.
 
-Risk Mgmt: This event should have been identified as a risk with a mitigation plan (e.g., cross-training, documentation).
+Risk management: This event should have been identified as a risk with a mitigation plan (e.g., cross-training, documentation).
 
 The Unifying Role: Project Integration Management is the formal methodology for performing this integration. It ensures that all elements of the project are properly coordinated by making conscious trade-offs among competing objectives and alternatives, ultimately leading to a cohesive and successful project outcome.
 

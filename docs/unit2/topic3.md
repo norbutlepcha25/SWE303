@@ -106,6 +106,14 @@ Communication: Serves as a clear communication tool to show stakeholders how the
 
 Scope Control is the process of managing changes to the project scope baseline. An effective process is essential to contain scope creep while still allowing for necessary and valuable changes.
 
+Scope control and change management ensure that a project stays aligned with its defined objectives despite **evolving requirements.** They involve monitoring project scope, **managing scope changes** systematically, and preventing uncontrolled scope creep.
+
+!!! warning "Note"
+
+    It's the project manager's job to ***limit the need for changes*** on one hand, and on the other to ***efficiently manage the changes*** in a way that the project could benefit.
+
+Requirement change control is the formal process of handling modifications to agreed-upon requirements in a project. It ensures that changes are properly documented, evaluated, approved, and communicated, preventing uncontrolled scope creep and project disruptions.
+
 ## 2.3.3.1 Establishing a change control board
 
 vA CCB is a formally constituted group of stakeholders responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project.
@@ -113,6 +121,13 @@ vA CCB is a formally constituted group of stakeholders responsible for reviewing
 Membership: Typically includes the project sponsor, project manager, key customer representatives, and technical leads.
 
 Role: The CCB ensures that each change is evaluated from a business and technical perspective and that approved changes are properly integrated and communicated. It is the ultimate authority on scope changes.
+
+- **Responsibilities**:
+
+  - Review change requests.
+  - Assess alignment with project goals.
+  - Balance project constraints (time, cost, quality).
+  - Approve or reject changes formally.
 
 ## 2.3.3.2 Evaluating the impact of scope changes
 
@@ -132,6 +147,9 @@ Risk Impact: Does it introduce new risks or mitigate existing ones?
 
 Procurement Impact: Are new vendors or contracts required?
 
+- **Tools used**: Impact analysis, cost-benefit analysis, risk assessment.
+- **Outcome**: Informed decision-making that balances customer needs with project feasibility.
+
 ## 2.3.3.3 Implementing an effective change management process
 
 A formal, documented process ensures changes are managed consistently and transparently.
@@ -147,3 +165,15 @@ Update Project Documents: If approved, the project management plan, scope baseli
 Communicate Decision: The decision and its rationale are formally communicated to all stakeholders.
 
 Implement & Track Change: The project team implements the change, and the project manager ensures it is tracked to completion and that the project baselines reflect the new reality. All changes are logged in a Change Log.
+
+- A well-defined **change management process** ensures that changes are documented, assessed, approved, and communicated.
+- **Steps typically include**:
+
+  1. **Change Request Submission** → Formal request logged with description and justification.
+  2. **Impact Analysis** → Evaluation of cost, schedule, quality, and risks.
+  3. **CCB Review and Decision** → Approve, reject, or defer the change.
+  4. **Implementation Planning** → Update project plans, schedules, and resources.
+  5. **Communication** → Notify stakeholders and ensure alignment.
+  6. **Monitoring** → Track change implementation and its results.
+
+- **Benefit**: Ensures transparency, accountability, and control over evolving requirements.

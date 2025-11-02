@@ -1,12 +1,11 @@
-## Learning Outcomes
+# Unit 2: Project Initiation and Scope Definition
 
-{% for lo in unit1 %}
+!!! success "Learning Outcome"
 
-- {{ lo }}
-  {% endfor %}
-  docs\assets\h5p\quiz1\Quiz 1.html
+    🎯 Apply techniques for requirements elicitation, analysis, and management in software projects.
 
-Unit Introduction
+**Unit 2:Project Initiation and Scope Definition - Overview**
+
 Unit II establishes the critical foundation for any successful software project, covering the essential processes that transform a business idea into an authorized, well-defined initiative with clear boundaries. This unit addresses the most common causes of project failure—poor requirements, unclear objectives, and uncontrolled scope changes—by providing a structured framework for setting projects up for success from the very beginning.
 
 The unit progresses through three logically connected pillars that represent the fundamental building blocks of project definition:

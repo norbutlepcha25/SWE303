@@ -4,9 +4,12 @@ Project initiation constitutes the formal commencement of a new project, transit
 
 ## 2.1.1 Developing the project charter
 
-The Project Charter is the document that formally authorizes a project's existence. It provides the project manager with the authority to apply organizational resources to project activities. It is the foundational document that links the project to the ongoing work of the organization.
+**The Project Charter is the document that formally authorizes a project's existence.** It provides the project manager with the authority to apply organizational resources to project activities. It is the foundational document that links the project to the ongoing work of the organization.
 
 ## 2.1.1.1 Key components of a project charter
+
+{{ image_block("../img/u1/Project-Charter-Business-Case-Template_WORD-Updated.webp", "Chart", "Risk comparison chart", "DataViz", "https://dataviz.com", size="large") }}
+{{ image_block("../img/u1/Project-charter-example.webp", "Chart", "Risk comparison chart", "DataViz", "https://dataviz.com", size="large") }}
 
 As per PMBOK standards and industry practice, a comprehensive project charter for a software project should include:
 

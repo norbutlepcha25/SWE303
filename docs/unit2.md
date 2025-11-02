@@ -14,12 +14,6 @@ Requirement change control is the formal process of handling modifications to ag
 
 - A **Change Control Board (CCB)** is a formal group responsible for reviewing, approving, or rejecting proposed changes to the project scope.
 - **Members typically include**: project manager, client representatives, technical leads, quality assurance, and sometimes executive stakeholders.
-- **Responsibilities**:
-
-  - Review change requests.
-  - Assess alignment with project goals.
-  - Balance project constraints (time, cost, quality).
-  - Approve or reject changes formally.
 
 - **Benefit**: Provides structured governance and prevents uncontrolled scope changes.
 
@@ -35,23 +29,8 @@ Requirement change control is the formal process of handling modifications to ag
   - **Quality** → Will it compromise or enhance quality?
   - **Risk** → Does it introduce new risks or mitigate existing ones?
 
-- **Tools used**: Impact analysis, cost-benefit analysis, risk assessment.
-- **Outcome**: Informed decision-making that balances customer needs with project feasibility.
-
 ---
 
 ## **2.3.3.3 Implementing an Effective Change Management Process**
-
-- A well-defined **change management process** ensures that changes are documented, assessed, approved, and communicated.
-- **Steps typically include**:
-
-  1. **Change Request Submission** → Formal request logged with description and justification.
-  2. **Impact Analysis** → Evaluation of cost, schedule, quality, and risks.
-  3. **CCB Review and Decision** → Approve, reject, or defer the change.
-  4. **Implementation Planning** → Update project plans, schedules, and resources.
-  5. **Communication** → Notify stakeholders and ensure alignment.
-  6. **Monitoring** → Track change implementation and its results.
-
-- **Benefit**: Ensures transparency, accountability, and control over evolving requirements.
 
 ---

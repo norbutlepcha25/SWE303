@@ -1,8 +1,5 @@
 unit1:
-  - "Understand the fundamentals of project management."
-  - "Identify key stakeholders and deliverables."
-  - "Explain the project lifecycle and its phases."
-
+  - "Explain the software project management process and its importance in software engineering."
 unit2:
   - "Develop a project plan including scope and schedule."
   - "Perform risk assessment and management."
@@ -12,3 +9,9 @@ unit3:
   - "Create project schedules with milestones."
   - "Use project tracking tools to monitor progress."
   - "Ensure quality standards and deliverables are met."
+# Develop comprehensive project plans, including work breakdown structures, schedules, and resource allocation.
+# Implement risk management strategies to identify, assess, and mitigate project risks.
+# Apply quality management principles and practices in software development projects.
+# Utilize project management tools and techniques for monitoring and controlling project progress.
+# Evaluate project performance using earned value management and other metrics.
+# Apply appropriate project closure activities and conduct post-project reviews.

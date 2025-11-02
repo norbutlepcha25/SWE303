@@ -1,4 +1,4 @@
-# 1. Introduction to Software Project Management
+# Unit 1. Introduction to Software Project Management
 
 !!! success "Learning Outcome"
 
@@ -6,7 +6,7 @@
 
 **Unit 1: Foundations of Software Project Management - Overview**
 
-Welcome to the foundational unit on Software Project Management. This unit addresses a critical question: **Why do software projects need specialized management, and what does it take to make them successful?**
+This unit addresses a critical question: **Why do software projects need specialized management, and what does it take to make them successful?**
 
 Software development is more than just a technical challenge; it is a complex, high-stakes endeavor prone to failure, changing requirements, and significant investment. This unit establishes that disciplined project management is the essential discipline that transforms a set of technical tasks into a successful, value-delivering product.
 
