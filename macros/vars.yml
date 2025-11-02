@@ -27,3 +27,5 @@ complexity_table_html: |
       </tr>
     </tbody>
   </table>
+
+# {{ h5p_lumi_embed("quiz1","assets/h5p/quiz1/index.html", base_url="/SWE303") }}

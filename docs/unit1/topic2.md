@@ -198,4 +198,4 @@ On-Site Customer: A real customer is available full-time to answer questions.
 
 ## Quiz
 
-{{ h5p_lumi_embed("quiz1","assets/h5p/quiz1/index.html", base_url="/SWE303") }}
+
