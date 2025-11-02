@@ -105,3 +105,15 @@ making notes template
 </table>
 <div style="margin-top:8px">Made with <a href="https://www.htmltables.io/" target="_blank">HTML Tables</a></div>
 </div>
+
+<!-- size medium -->
+
+{{ image_block("img/risk_mgt/PImatrix.webp", "RBS", "Perform Qualitative analysis: Input, tools and output", "Project Management Training", "https://www.rosemet.com/qualitative-risk-analysis/") }}
+
+<!-- size: small -->
+
+{{ image_block("img/example.webp", "Chart", "Risk comparison chart", "DataViz", "https://dataviz.com", size="small") }}
+
+<!-- custome size -->
+
+{{ image_block("img/custom.webp", "Custom", "Custom width example", "Docs", "https://example.com", width="75%") }}

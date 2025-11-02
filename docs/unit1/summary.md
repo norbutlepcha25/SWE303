@@ -1,9 +1,5 @@
 # summary
 
-Of course. Here is a bulleted summary of the unit.
-
----
-
 ### **Unit 1.1: Introduction to Software Project Management - Summary**
 
 - **Core Premise:** Software Project Management is a critical discipline for translating business needs into successful software products, mitigating the high failure rates common in the industry through structured processes.

@@ -1,6 +1,6 @@
 # 1.3 Project management methodologies
 
-This unit examines the overarching methodologies and frameworks that guide how projects are managed. While the previous unit (SDLC Models) focused on the development process, this unit focuses on the management process. A methodology is a system of practices, techniques, procedures, and rules used by those who work in a discipline. We explore two primary paradigms: the comprehensive, process-oriented standard of PMBOK and the scalable, enterprise-level Agile frameworks.
+While the previous unit (SDLC Models) focused on the development process, this unit focuses on the management process. A methodology is a system of practices, techniques, procedures, and rules used by those who work in a discipline. We explore two primary paradigms: the comprehensive, process-oriented standard of PMBOK and the scalable, enterprise-level Agile frameworks.
 
 Understanding these methodologies is crucial for a Project Manager to establish the "rules of the game" for a project or an entire organization. The choice between a process-centric approach and a lean-agile approach, or a blend of both, fundamentally shapes governance, reporting, team structure, and ultimately, project success.
 
@@ -129,3 +129,7 @@ Construction (Phase 2): Goals include producing a consumable solution, achieving
 Transition (Phase 3): Goals include ensuring the solution is usable and viable, and deploying the solution into production.
 
 Decision Points: The core of DAD is its focus on making conscious choices about your Way of Working (WoW). It provides guidance on decisions such as: How formal should our architecture be? How should we model? How should we test? This makes DAD a process toolkit rather than a single methodology.
+
+## Test Yourself
+
+## Reference

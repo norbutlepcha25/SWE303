@@ -8,11 +8,7 @@ The unit progresses from highly structured, predictive models to adaptive, flexi
 
 The Waterfall model is a sequential (or linear) lifecycle model where project activities are broken down into distinct, non-overlapping phases. The output of one phase serves as the input for the next, with little to no iteration or going back. It is a predictive model, relying on extensive upfront planning and a fixed scope.
 
-### 1.4 SDLC Models
-
-#### 1.4.1 WaterFall Model
-
-<img src="../img/waterfall.png" alt = "waterfall" width="100%"><img>
+{{ image_block("../img/waterfall.png", "waterfall", "Waterfall model", "http.google.com", "https://example.com", size="large") }}
 
 Waterfall methodology is a well-established project management workflow. Like a waterfall, each process phase cascades downward sequentially through five stages
 
@@ -34,11 +30,39 @@ Operations and Maintenance: The system is used and maintained, including fixing 
 
 ### 1.2.1.2 Advantages and disadvantages
 
-Advantages Disadvantages
-Simple and Easy to Understand: Phases are logical and easy for management and stakeholders to grasp. Inflexible to Change: It is difficult and expensive to go back and change requirements once a phase is complete.
-Clear Milestones and Deliverables: Each phase has well-defined outputs, making progress easy to track. Late Delivery of Working Software: The customer does not see a working product until very late in the lifecycle.
-Well-Suited for Stable Requirements: Works well when requirements are well-understood and unlikely to change. High Risk and Uncertainty: Major risks (e.g., misunderstood requirements, technical feasibility) are often discovered only during testing.
-Easier Management and Control: The structured nature makes it easier to manage tasks, budgets, and schedules. Testing is a Bottleneck: Testing is relegated to the end, leading to potential schedule overruns if many defects are found.
+<div class="custom-table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Area</th>
+        <th>Advantage</th>
+        <th>Disadvantage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Simple and Easy to Understand:</td>
+        <td> Phases are logical and easy for management and stakeholders to grasp</td>
+        <td>Inflexible to Change: It is difficult and expensive to go back and change requirements once a phase is complete</td>
+      </tr>
+      <tr>
+      <td>Milestones and Deliverables</td>
+        <td>Each phase has well-defined outputs, making progress easy to track.</td>
+        <td>Late Delivery of Working Software: The customer does not see a working product until very late in the lifecycle</td>
+      </tr>
+      <tr>
+      <td>Well-Suited for Stable Requirements</td>
+        <td>Works well when requirements are well-understood and unlikely to change.</td>
+        <td> Major risks (e.g., misunderstood requirements, technical feasibility) are often discovered only during testing.</td>
+      </tr>
+      <tr>
+      <td>Easier Management and Control:</td>
+        <td>The structured nature makes it easier to manage tasks, budgets, and schedules.</td>
+        <td>Testing is a Bottleneck: Testing is relegated to the end, leading to potential schedule overruns if many defects are found.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ### 1.2.1.3 Suitable scenarios for waterfall model usage
 
@@ -56,6 +80,8 @@ These models develop a system through repeated cycles (iterative) and in smaller
 
 ### 1.2.2.1 Spiral model: phases and risk-driven approach
 
+{{ image_block("../img/u1/Spiral_model.svg", "Spiral Model", "Spiral model", "Wikipedia", "https://en.wikipedia.org/wiki/Spiral_model", size="large") }}
+
 The Spiral Model, developed by Barry Boehm, combines the iterative nature of prototyping with the controlled and systematic aspects of the Waterfall model. It is risk-driven.
 
 Each loop of the spiral represents a phase and consists of four quadrants:
@@ -70,7 +96,9 @@ Planning: Review the results of the iteration and plan for the next iteration.
 
 ### 1.2.2.2 Rational Unified Process (RUP): phases and disciplines
 
-RUP is a comprehensive iterative framework that provides a disciplined approach to assigning tasks and responsibilities within a development organization.
+{{ image_block("../img/u1/RUP.webp", "RUP Model", "Rational Unified Process model", "Project Skills Mentor", "https://projectskillsmentor.com/project-skills/how-rup-works", size="large") }}
+
+RUP is a comprehensive iterative framework that provides a disciplined approach to assigning tasks and responsibilities within a development organization.[^1]
 
 Dynamic Structure (Phases - Managed across the project timeline):
 
@@ -108,6 +136,8 @@ Agile is a mindset and philosophy based on the values and principles expressed i
 
 Scrum is a lightweight framework for developing complex products, not a definitive methodology.
 
+{{image_block("../img/u1/scrum.jpg", "Scrum Model", "Scrum Process", "Hame University of Applied Sciences", "https://unlimited.hamk.fi/yrittajyys-ja-liiketoiminta/scrum-in-design-factory-projects/", size="large")}}
+
 Roles:
 
 Product Owner: Maximizes product value, manages the Product Backlog.
@@ -139,6 +169,8 @@ Sprint Retrospective: The team inspects itself and creates a plan for improvemen
 ### 1.2.3.2 Kanban: principles, practices, and board management
 
 Kanban is a method for managing and improving work across human systems. It focuses on visualizing the workflow, limiting work in progress (WIP), and enhancing flow.
+
+{{image_block("../img/u1/kanban-board.png", "Kanban", "Kanban Board Example", "Moqups", "https://moqups.com/templates/planning-and-ideation/project-management/kanban-board/", size="large")}}
 
 Principles:
 
@@ -194,8 +226,8 @@ Sustainable Pace: Work at a pace that can be sustained indefinitely, avoiding bu
 
 On-Site Customer: A real customer is available full-time to answer questions.
 
-## reference
-
 ## Quiz
 
+## reference
 
+[^1]: Project Skills Mentor. (2025, November 2). What is Rational Unified Process? — ProjectSkillsMentor | ProjectSkills Mentor. ProjectSkillsMentor. https://projectskillsmentor.com/project-skills/how-rup-works
