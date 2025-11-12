@@ -8,23 +8,25 @@ Elicitation involves actively engaging with stakeholders to discover, extract, a
 
 ## 2.2.1.1 Interviews and questionnaires
 
-Interviews: A direct, conversational technique for gathering detailed information from individuals or small groups.
+- **Interviews**: A direct, conversational technique for gathering detailed information from individuals or small groups.
 
-Types:
+      **Types of interview:**
 
-Structured: Uses a pre-defined set of questions for consistency.
+      1.  Structured: Uses a pre-defined set of questions for consistency.
+      2.  Unstructured: An open, conversational format to explore topics in depth.
+      3.  Semi-structured: A blend, using a guide but allowing for follow-up questions.
 
-Unstructured: An open, conversational format to explore topics in depth.
+!!! note ""
 
-Semi-structured: A blend, using a guide but allowing for follow-up questions.
+    Ideal for engaging subject matter experts (SMEs) and key stakeholders to understand complex processes and nuanced needs.
 
-Application: Ideal for engaging subject matter experts (SMEs) and key stakeholders to understand complex processes and nuanced needs.
+- **Questionnaires and Surveys:** A written technique for collecting data from a large, geographically dispersed group of stakeholders.
 
-Questionnaires and Surveys: A written technique for collecting data from a large, geographically dispersed group of stakeholders.
+!!! note ""
 
-Application: Efficient for validating requirements, gathering feedback on prototypes, or quantifying user preferences (e.g., feature prioritization surveys).
+    Efficient for validating requirements, gathering feedback on prototypes, or quantifying user preferences (e.g., feature prioritization surveys).
 
-Limitation: Lacks the depth of interviews and cannot probe immediate, unscripted responses.
+     Limitation: Lacks the depth of interviews and cannot probe immediate, unscripted responses.
 
 ## 2.2.1.2 Workshops and focus groups
 
@@ -62,11 +64,11 @@ This process involves refining, decomposing, and formally documenting the elicit
 
 ## 2.2.2.1 Functional vs. non-functional requirements
 
-Functional Requirements: Describe the behaviors or functions of the system—what the system must do. They define interactions between the system and its environment.
+**Functional Requirements:** Describe the behaviors or functions of the system—what the system must do. They define interactions between the system and its environment.
 
 Examples: "The system shall allow users to reset their password." "The system shall generate a monthly sales report."
 
-Non-Functional Requirements (Quality Attributes): Describe the quality constraints and performance criteria under which the system must operate—how well the system performs its functions. They are often critical to user satisfaction and system success.
+**Non-Functional Requirements (Quality Attributes):** Describe the quality constraints and performance criteria under which the system must operate—how well the system performs its functions. They are often critical to user satisfaction and system success.
 
 Categories:
 

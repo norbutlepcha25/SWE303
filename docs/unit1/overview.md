@@ -4,7 +4,7 @@
 
     🎯 Explain the software project management process and its importance in software engineering.
 
-**Unit 1: Foundations of Software Project Management - Overview**
+<!-- **Unit 1: Foundations of Software Project Management - Overview**
 
 This unit addresses a critical question: **Why do software projects need specialized management, and what does it take to make them successful?**
 
@@ -18,4 +18,4 @@ The unit is structured around three interconnected pillars:
 
 3.  **The Management Frameworks:** Finally, we scale up to look at overarching management methodologies, including the standard **PMBOK** framework and scaled agile approaches like **SAFe**, which coordinate multiple teams in large organizations.
 
-**In essence, this unit provides the complete toolkit.** You will learn how the principles of management, the choice of a development process, and the selection of a management framework work together to navigate the unique challenges of software projects. This foundation is crucial for applying any methodology effectively in the real world, setting the stage for your success in managing software projects of any size or complexity.
+**In essence, this unit provides the complete toolkit.** You will learn how the principles of management, the choice of a development process, and the selection of a management framework work together to navigate the unique challenges of software projects. This foundation is crucial for applying any methodology effectively in the real world, setting the stage for your success in managing software projects of any size or complexity. -->

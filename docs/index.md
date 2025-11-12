@@ -1,9 +1,5 @@
 # Software Project Management Module
 
-Semester: {{ semester}}
-
-Tutor : {{ instructor }}
-
 ## General Objective
 
 This module provides a comprehensive overview of software project management, focusing on the initiation, planning, execution, monitoring, and closure of software projects. Students will learn to apply various project management methodologies, tools, and techniques to effectively manage software development processes.

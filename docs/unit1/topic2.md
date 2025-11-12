@@ -4,6 +4,8 @@ This unit explores the various process frameworks, or Software Development Life 
 
 The unit progresses from highly structured, predictive models to adaptive, flexible frameworks, reflecting the evolution of software project management in response to the need for speed and responsiveness. Understanding these models is crucial for a Project Manager to select the right lifecycle approach based on project requirements, stakeholder expectations, and the nature of the product being developed.
 
+{{image_block("../img/u1/typesofSDLC.webp", "", "", "", "", size="large")}}
+
 ## 1.2.1 Waterfall model
 
 The Waterfall model is a sequential (or linear) lifecycle model where project activities are broken down into distinct, non-overlapping phases. The output of one phase serves as the input for the next, with little to no iteration or going back. It is a predictive model, relying on extensive upfront planning and a fixed scope.
@@ -226,8 +228,8 @@ Sustainable Pace: Work at a pace that can be sustained indefinitely, avoiding bu
 
 On-Site Customer: A real customer is available full-time to answer questions.
 
-## Quiz
+<!-- ## Quiz
 
 ## reference
 
-[^1]: Project Skills Mentor. (2025, November 2). What is Rational Unified Process? — ProjectSkillsMentor | ProjectSkills Mentor. ProjectSkillsMentor. https://projectskillsmentor.com/project-skills/how-rup-works
+[^1]: Project Skills Mentor. (2025, November 2). What is Rational Unified Process? — ProjectSkillsMentor | ProjectSkills Mentor. ProjectSkillsMentor. https://projectskillsmentor.com/project-skills/how-rup-works -->

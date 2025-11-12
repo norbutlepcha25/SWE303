@@ -130,6 +130,6 @@ Transition (Phase 3): Goals include ensuring the solution is usable and viable, 
 
 Decision Points: The core of DAD is its focus on making conscious choices about your Way of Working (WoW). It provides guidance on decisions such as: How formal should our architecture be? How should we model? How should we test? This makes DAD a process toolkit rather than a single methodology.
 
-## Test Yourself
+<!-- ## Test Yourself
 
-## Reference
+## Reference -->

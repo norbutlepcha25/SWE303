@@ -28,7 +28,7 @@ Unlike construction or manufacturing projects, software projects have distinct c
 
 ### 1.1.1.3 The triple constraint: scope, time, and cost
 
-The Triple Constraint, also known as the Project Management Triangle or Iron Triangle, is a fundamental model that states that every project is constrained by three primary, interconnected dimensions: Scope, Time, and Cost[^1]. The quality of the project is often seen as the central outcome, governed by the balance of these three constraints.
+The Triple Constraint, also known as the Project Management Triangle or Iron Triangle, is a fundamental model that states that every project is constrained by three primary, interconnected dimensions: Scope, Time, and Cost. The quality of the project is often seen as the central outcome, governed by the balance of these three constraints.
 
 In modern project management, this model is often expanded to include other factors like Quality, Risk, and Resources, but the core triangle remains a powerful conceptual tool .
 
@@ -125,7 +125,7 @@ The core principle is that any change in one constraint will necessitate an adju
 
 A project lifecycle is the series of phases that a project passes through from its initiation to its closure. The structure of the lifecycle allows for control over the project and aligns technical work with management decision-making.
 
-While specific lifecycle models vary (e.g., Predictive/Waterfall, Iterative, Incremental, Agile, Hybrid), they generally map to the following high-level, generic phases, which also correspond to the PMBOK Process Groups[^2].These correspond to the five PMBOK Process Groups: Initiating, Planning, Executing, Monitoring & Controlling, and Closing.
+While specific lifecycle models vary (e.g., Predictive/Waterfall, Iterative, Incremental, Agile, Hybrid), they generally map to the following high-level, generic phases, which also correspond to the PMBOK Process Groups.These correspond to the five PMBOK Process Groups: Initiating, Planning, Executing, Monitoring & Controlling, and Closing.
 
 <!-- reference linked refence  -->
 <figure markdown="span">
@@ -139,7 +139,7 @@ While specific lifecycle models vary (e.g., Predictive/Waterfall, Iterative, Inc
     - _Outcome_: A signed project charter, giving the project manager the authority to apply organizational resources to project activities.
 2.  **Planning:** Establish the total scope of the effort, define and refine the objectives, and develop the course of action required to attain those objectives.
 
-    - _Activities:_
+    - **_Activities:_**
 
           - Project Management Plan(The overarching document).
           - Scope Baseline: (Scope Statement, WBS, WBS Dictionary).
@@ -369,9 +369,9 @@ Risk management: This event should have been identified as a risk with a mitigat
 
 The Unifying Role: Project Integration Management is the formal methodology for performing this integration. It ensures that all elements of the project are properly coordinated by making conscious trade-offs among competing objectives and alternatives, ultimately leading to a cohesive and successful project outcome.
 
-## Test Your self
+<!-- ## Test Your self
 
 ## Reference
 
 [^1]: Asana. (2025, February 15). The Project Management Triangle: What It Is and How to Use It. Asana. https://asana.com/resources/project-management-triangle
-[^2]: Brown, L. (2019, August 26). 5 Phases of Project Management Life Cycle You Need to Know - Invensis Learning Blog. Invensis Learning Blog. https://www.invensislearning.com/blog/5-phases-project-management-lifecycle/
+[^2]: Brown, L. (2019, August 26). 5 Phases of Project Management Life Cycle You Need to Know - Invensis Learning Blog. Invensis Learning Blog. https://www.invensislearning.com/blog/5-phases-project-management-lifecycle/ -->
