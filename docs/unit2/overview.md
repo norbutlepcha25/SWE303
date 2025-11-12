@@ -4,7 +4,7 @@
 
     🎯 Apply techniques for requirements elicitation, analysis, and management in software projects.
 
-**Unit 2:Project Initiation and Scope Definition - Overview**
+<!-- **Unit 2:Project Initiation and Scope Definition - Overview**
 
 Unit II establishes the critical foundation for any successful software project, covering the essential processes that transform a business idea into an authorized, well-defined initiative with clear boundaries. This unit addresses the most common causes of project failure—poor requirements, unclear objectives, and uncontrolled scope changes—by providing a structured framework for setting projects up for success from the very beginning.
 
@@ -16,4 +16,4 @@ The unit progresses through three logically connected pillars that represent the
 
 3. Scope Definition and Management (Section 2.3): The process of translating requirements into clear project boundaries and establishing controls to maintain those boundaries. This section answers "How much work is involved?" and "How do we handle changes?" through the creation of scope statements, Work Breakdown Structures, and formal change control processes.
 
-The integration of these three components creates a robust framework that ensures projects begin with clear direction, stakeholder alignment, and defined constraints. This foundation enables effective planning, execution, and control throughout the project lifecycle, while providing the flexibility to accommodate necessary changes through disciplined processes.
+The integration of these three components creates a robust framework that ensures projects begin with clear direction, stakeholder alignment, and defined constraints. This foundation enables effective planning, execution, and control throughout the project lifecycle, while providing the flexibility to accommodate necessary changes through disciplined processes. -->
