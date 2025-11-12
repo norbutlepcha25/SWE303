@@ -1,9 +1,8 @@
-## Learning Outcomes
+# Unit 3: Project Planning
 
-{% for lo in unit1 %}
+!!! note "Learning Outcome"
 
-- {{ lo }}
-  {% endfor %}
+    Develop comprehensive project plans, including work breakdown structures, schedules, and resource allocation.
 
 <!-- Unit Introduction
 Unit III addresses the core of project execution preparedness: comprehensive planning. This unit transforms the foundational elements from Unit II (scope and requirements) into actionable, detailed plans for time, cost, resources, and communication. Effective planning is what separates ad-hoc efforts from professionally managed software projects, providing the roadmap that guides the team from concept to delivery while establishing baselines for control.

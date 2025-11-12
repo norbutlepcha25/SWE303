@@ -4,65 +4,71 @@ Time management involves the processes required to manage the timely completion 
 
 ## 3.1.1 Activity definition and sequencing
 
+This is the process of identifying and documenting the specific actions to be performed to produce the project deliverables and then arranging them in the proper sequence. It's the foundation for creating a realistic project schedule.
+
 ## 3.1.1.1 Identifying project activities from the WBS
 
-The process of decomposing Work Breakdown Structure (WBS) work packages into smaller, more manageable activities for estimation and scheduling.
+A Work Breakdown Structure decomposes the entire project deliverable into smaller, more manageable work packages.
 
-Key Input: WBS and WBS Dictionary
+The Work Breakdown Structure (WBS) is a hierarchical decomposition of the total scope of work. However, the WBS contains deliverables (nouns), not activities (verbs). Activity Definition is the process of decomposing these WBS work packages into the actual tasks that need to be executed.
 
-Technique: Decomposition
-
-Output: Activity List
-
-PMBOK Reference: Process 6.2 - Define Activities
+In software, the WBS is often represented by Features or Epics (high-level user functionality) broken down into User Stories (small, testable units of work). Activity definition is the process where the development team asks, "What specific tasks do we need to do to complete this user story?"
 
 Software Context: Activities might include "Develop User Authentication Module," "Write Unit Tests for Payment API," or "Conduct Security Penetration Testing."
 
+{{image_block("../img/u3/wbs.png", size="large")}}
+
 ## 3.1.1.2 Creating network diagrams: Activity-On-Arrow(AOA) and Activity-On-Node(AON)
 
-Activity-On-Node (AON)/Precedence Diagramming Method (PDM):
+**Activity-On-Node (AON)/Precedence Diagramming Method (PDM):**
 
-Description: Nodes represent activities, and arrows show dependencies (Most common in software projects)
+Description: **_Nodes represent activities_**, and a**_rrows show dependencies_** (Most common in software projects)
 
 Dependency Types: Finish-to-Start (FS), Start-to-Start (SS), Finish-to-Finish (FF), Start-to-Finish (SF)
 
-Activity-On-Arrow (AOA)/Arrow Diagramming Method (ADM):
+**Activity-On-Arrow (AOA)/Arrow Diagramming Method (ADM):**
 
-Description: Arrows represent activities, and nodes represent events (milestones)
+Description: **_Arrows represent activities_**, and **_nodes represent events (milestones)_**
+
+{{image_block("../img/u3/AON.webp", "", "", "", size="large")}}
 
 PMBOK Reference: Process 6.3 - Sequence Activities
 
 ## 3.1.1.3 Determining dependencies between activities
 
+A dependency is a logical relationship that determines the order of activities.
+
 Mandatory Dependencies (Hard Logic): Inherent in the nature of the work (e.g., test after coding)
+
+- e.g., You can’t “Test API” before “Develop API.”
 
 Discretionary Dependencies (Soft Logic): Based on best practices or preferred sequence
 
+- e.g., Code review after every sprint rather than at the end of project.
+
 External Dependencies: Relationships to non-project activities (e.g., delivery of third-party components)
+
+- e.g. Awaiting approval from a client or third-party vendor API.
 
 Resource Dependencies: Based on availability of specific resources
 
+- e.g., “Backend must finish before Integration Testing.”
+
 ## 3.1.2 Estimating activity durations
 
-Analogous Estimating (Top-Down):
+1.  Analogous Estimating (Top-Down):
 
-Description: Uses historical data from similar projects
+    - Description: Uses historical data from similar projects
+    - When to Use: Early phases, when limited information available
+    - Accuracy: Low to medium
 
-When to Use: Early phases, when limited information available
+2.  Parametric Estimating:
 
-Accuracy: Low to medium (-25% to +75%)
-
-Parametric Estimating:
-
-Description: Uses statistical relationship between historical data and other variables
-
-Software Example: Cost per function point, story points based on velocity
-
-Three-Point Estimating (PERT):
-
-Formula: (Optimistic + 4×Most Likely + Pessimistic) ÷ 6
-
-Benefit: Accounts for uncertainty and risk
+    - Description: Uses statistical relationship between historical data and other variables
+    - Software Example: Cost per function point, story points based on velocity
+    - Three-Point Estimating (PERT):
+      - Formula: (Optimistic + 4×Most Likely + Pessimistic) ÷ 6
+    - Benefit: Accounts for uncertainty and risk
 
 PMBOK Reference: Process 6.4 - Estimate Activity Durations
 
@@ -127,7 +133,3 @@ Benefits: Visual progress tracking, easy to understand for stakeholders
 Tools: Microsoft Project, Jira, Asana, Monday.com
 
 Modern Usage: Often integrated with agile boards and burn-down charts
-
-## reference
-
-## Test Your self
